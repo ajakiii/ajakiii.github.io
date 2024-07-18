@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hedgehog Clicker</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    #hedgehog {
+      width: 200px;
+      height: 200px;
+      cursor: pointer;
+    }
+    #score {
+      font-size: 24px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hedgehog Clicker</h1>
+  <img id="hedgehog" src="hedgehog.png" alt="Hedgehog">
+  <p id="score">Score: 0</p>
+
+  <script>
+    let score = 0;
+    const hedgehog = document.getElementById('hedgehog');
+    const scoreDisplay = document.getElementById('score');
+
+    hedgehog.addEventListener('click', function() {
+      score++;
+      scoreDisplay.textContent = 'Score: ' + score;
+    });
+  </script>
+</body>
+</html>
