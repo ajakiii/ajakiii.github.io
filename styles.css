@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    color: white;
+}
+
+.game-container {
+    text-align: center;
+    background: #3a3f47;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 1.5em;
+}
+
+.currency {
+    font-size: 1.2em;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+.hamster-container {
+    position: relative;
+}
+
+.hamster-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.levels {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 1.2em;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.stats {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.stat {
+    margin: 5px 0;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+#tap-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
